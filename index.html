@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Giày Đá Bóng</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h2>Football Shoes Store</h2>
+    <ul>
+      <li><a href="index.html">Trang chủ</a></li>
+      <li><a href="#intro">Giới thiệu</a></li>
+      <li><a href="cart.html">Giỏ hàng</a></li>
+    </ul>
+  </nav>
+
+  <header class="banner">
+    <h1>Chào mừng đến với Shop Giày Đá Bóng</h1>
+    <p>Khám phá những mẫu giày chất lượng từ các thương hiệu hàng đầu</p>
+  </header>
+
+  <section id="intro" class="intro fade-in">
+    <h2>Giới thiệu các mẫu giày</h2>
+    <ul>
+      <li><b>Nike Mercurial</b> – tốc độ và sự linh hoạt.</li>
+      <li><b>Adidas Predator</b> – kiểm soát bóng tuyệt vời.</li>
+      <li><b>Joma Champion</b> – giá hợp lý, chất lượng ổn định.</li>
+      <li><b>Mizuno Morelia</b> – cảm giác bóng chân thật.</li>
+    </ul>
+  </section>
+
+ <section class="products">
+  <div class="product fade-in">
+    <img src="images/nike.jpg" alt="Nike Mercurial" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%27600%27 height=%27400%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/><text x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 fill=%27%236c757d%27 font-size=%2732%27 font-family=%27Arial%27>Image not found</text></svg>'">
+    <h2>Nike Mercurial</h2>
+    <p>Giá: 2.000.000 VND</p>
+    <button onclick="addToCart('Nike Mercurial',2000000,'images/nike.jpg')">Thêm vào giỏ</button>
+  </div>
+
+  <div class="product fade-in">
+    <img src="images/adidas.jpg" alt="Adidas Predator" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%27600%27 height=%27400%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/><text x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 fill=%27%236c757d%27 font-size=%2732%27 font-family=%27Arial%27>Image not found</text></svg>'">
+    <h2>Adidas Predator</h2>
+    <p>Giá: 2.200.000 VND</p>
+    <button onclick="addToCart('Adidas Predator',2200000,'images/adidas.jpg')">Thêm vào giỏ</button>
+  </div>
+
+  <div class="product fade-in">
+    <img src="images/joma.jpg" alt="Joma Champion" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%27600%27 height=%27400%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/><text x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 fill=%27%236c757d%27 font-size=%2732%27 font-family=%27Arial%27>Image not found</text></svg>'">
+    <h2>Joma Champion</h2>
+    <p>Giá: 1.800.000 VND</p>
+    <button onclick="addToCart('Joma Champion',1800000,'images/joma.jpg')">Thêm vào giỏ</button>
+  </div>
+
+  <div class="product fade-in">
+    <img src="images/mizuno.jpg" alt="Mizuno Morelia" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%27600%27 height=%27400%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9ecef%27/><text x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27middle%27 text-anchor=%27middle%27 fill=%27%236c757d%27 font-size=%2732%27 font-family=%27Arial%27>Image not found</text></svg>'">
+    <h2>Mizuno Morelia</h2>
+    <p>Giá: 2.100.000 VND</p>
+    <button onclick="addToCart('Mizuno Morelia',2100000,'images/mizuno.jpg')">Thêm vào giỏ</button>
+  </div>
+</section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Football Shoes Store | Liên hệ: tronghau@footballstore.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
